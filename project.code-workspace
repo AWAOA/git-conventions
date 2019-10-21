@@ -1,0 +1,20 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "explorer.sortOrder": "type",
+        "editor.suggestSelection": "first",
+        "editor.formatOnPaste": true,
+    },
+    "extensions": {
+        "recommendations": [
+            "editorconfig.editorconfig",
+            "codezombiech.gitignore",
+            "yzane.markdown-pdf",
+            "davidanson.vscode-markdownlint"
+        ]
+    }
+}
