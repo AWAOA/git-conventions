@@ -8,4 +8,4 @@ Documentation about practices on git and trunk-based development with the refere
 
 ## Contents
 
-+ [Commit Message Guidelines](./docs/commit-message-guidelines/01-commit-message-guidelines.md)
++ [Commit Message Guidelines](./docs/commit-message-guidelines/commit-message-guidelines.md)
