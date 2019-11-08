@@ -27,14 +27,19 @@ The footer should contain a [closing reference to an issue](https://help.github.
 
 Samples: (even more [samples](https://github.com/angular/angular/commits/master))
 
+### Example: Header only commit message
+
 ```wiki
 docs(changelog): update changelog to beta.5
 ```
 
+### Example: With body commit message
+
 ```wiki
 fix(release): need to depend on latest rxjs and zone.js
 
-The version in our package.json gets copied to the one we publish, and users need the latest of these.
+The version in our package.json gets copied to the one
+we publish, and users need the latest of these.
 ```
 
 ## Subject line(The header)
@@ -57,23 +62,7 @@ Must be one of the following:
 
 ### Scope
 
-The scope should be the name of the npm package affected (as perceived by the person reading the changelog generated from commit messages).
-
-The following is the list of supported scopes:
-
-- **rapid**
-- **rapid+**
-- **hydra**
-- **hydra-shim**
-- **bc**
-- **cybersource**
-- **fdi**
-- **fraud**
-- **logging**
-- **amex**
-- **maxmind**
-- **xml-gateway**
-- **upi**
+The scope should be the name of the businesses affected (as perceived by the person reading the changelog generated from commit messages).
 
 ### Subject
 
@@ -133,6 +122,8 @@ This reverts commit 667ecc1654a317a13331b17617d973392f415f02
 
 ## Examples
 
+---
+
 ```wiki
 feat($browser): onUrlChange event (popstate/hashchange/polling)
 
@@ -143,6 +134,8 @@ Added new event to $browser:
 
 Breaks $browser.onHashChange, which was removed (use onUrlChange instead)
 ```
+
+---
 
 ```wiki
 fix($compile): couple of unit tests for IE9
@@ -155,6 +148,8 @@ Closes #392
 Breaks foo.bar api, foo.baz should be used instead
 ```
 
+---
+
 ```wiki
 feat(directive): ng:disabled, ng:checked, ng:multiple, ng:readonly, ng:selected
 
@@ -164,9 +159,13 @@ Added coresponding description, live examples and e2e tests.
 Closes #351
 ```
 
+---
+
 ```wiki
 style($location): add couple of missing semi colons
 ```
+
+---
 
 ```wiki
 docs(guide): updated fixed docs from Google Docs
@@ -177,6 +176,8 @@ Couple of typos fixed:
 - start periodic checking
 - missing brace
 ```
+
+---
 
 ```wiki
 feat($compile): simplify isolate scope bindings
